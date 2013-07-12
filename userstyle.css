@@ -1,7 +1,7 @@
 
 .chat-toolbar,
-.inbox-toolbar { 
-  padding: 4px !important; 
+.inbox-toolbar {
+  padding: 4px !important;
   height: 50px !important;
 }
 
@@ -16,13 +16,13 @@
 #chat li[class*="message"] .single-view-link {
   padding-left:2px !important;
 }
+#chat li[class*='message']:last-child { padding-bottom: 1.538em !important; }
 
 #chat .single-view-link.mini-icon {
   position: relative !important;
   float: left !important;
   padding: 0px !important;
 }
-
 
 /* inbox */
 
@@ -37,9 +37,13 @@
 
 .excerpt { color: #888 !important;}
 
-.inbox-message-list .avatar { 
-  width: 40px !important; 
-  height: 40px !important; 
+.inbox-panel {
+  float: right !important;
+}
+
+.inbox-message-list .avatar {
+  width: 40px !important;
+  height: 40px !important;
   margin-right:5px !important;
 }
 .inbox-message-list .avatar .type-icon {
@@ -48,19 +52,19 @@
   font-size: 8px;
 }
 
-.inbox-message-list .inbox-message { 
+.inbox-message-list .inbox-message {
   padding: 5px 0px !important;
 }
-.inbox-message-list .inbox-message .title { 
+.inbox-message-list .inbox-message .title {
   font-size: 12px !important;
 }
 
-.inbox-message-list .inbox-message .excerpt { 
+.inbox-message-list .inbox-message .excerpt {
   font-size: 12px !important;
-  max-height: 40px !important;  
+  max-height: 40px !important;
   margin-bottom: 4px !important;
 }
-.inbox-message-list .inbox-message .commit { 
+.inbox-message-list .inbox-message .commit {
   height: 23px !important;
 }
 
@@ -69,7 +73,7 @@
 }
 
 .inbox-message-list .inbox-message .items {
- font-size: 12px !important; 
+ font-size: 12px !important;
 }
 
 .inbox-message-list .inbox-message .timestamp {
@@ -85,6 +89,7 @@
   right: auto !important;
   z-index: 1000 !important;
 }
+
 .inbox-message-list .inbox-message .message-actions button {
   padding: 0px !important;
 }
@@ -139,4 +144,3 @@
 .single-message .single-message-body table.headers{
   margin: 5px 0px !important;
 }
-*/
