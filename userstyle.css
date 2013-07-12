@@ -144,3 +144,7 @@
 .single-message .single-message-body table.headers{
   margin: 5px 0px !important;
 }
+
+.chat-toolbar li.user, .chat-toolbar li.dummy {
+  margin: 3px 0px 0px 0px !important;
+}
