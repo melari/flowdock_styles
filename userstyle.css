@@ -148,3 +148,7 @@
 .chat-toolbar li.user, .chat-toolbar li.dummy {
   margin: 3px 0px 0px 0px !important;
 }
+
+.dropdown-menu.pull-right {
+  left: 0px !important;
+}
